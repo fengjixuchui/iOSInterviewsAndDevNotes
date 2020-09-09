@@ -47,6 +47,8 @@
 23. [抖音面试题2020年3月：参考答案已更新](./interview-iOS/23抖音面试题2020年3月.md)
 24. [阿里iOS五轮面经2019年10月](./interview-iOS/24阿里iOS五轮面经2019年10月.md)
 25. [小米百度bigo滴滴快手等iOS面试题2020年上](./interview-iOS/25小米百度bigo滴滴快手等iOS面试题2020年上.md)
+26. [腾讯iOS六轮面试分享2020年](./interview-iOS/26腾讯iOS六轮面试分享2020年.md)
+
 
 ## <a name="iOSDevNote"></a> iOSDevNote
 
@@ -54,7 +56,7 @@
 |:----|:----|
 |iOS技能图谱/技术栈|[iOS技能图谱-byStuQ](./iOSNote/map-MobileDev-iOSDev.md)                          <br>[JSPatch作者博客中的技能栈-图](./images/iOS/iOSDev-bang.png)|
 |iOS开发相关shell脚本|[DevelopBaseNote/shell](https://github.com/DevDragonLi/DevelopBaseNote#shell)|
-|iOSDevNote|[**Dark Mode适配组件及Demo**](https://github.com/DevDragonLi/LFLDarkModeKit)<br>[**ProtocolService组件化简易中间件Demo**](https://github.com/DevDragonLi/ProtocolServiceManger)<br>[**iOS开发架构分享文稿**](./iOSNote/iOS_architecture.pdf)<br>[**掘金客户端体积瘦身**](./iOSNote/iOSAppThin.md)<br>[**iOSDevCodeRepo**](https://github.com/DevDragonLi/iOSDevDemo)<br>[Core Animation框架结构及性能调优11张大图详解](https://github.com/DevDragonLi/Core-AnimationPerformanceOptimization)<br>[iOS_StaticLibrary](./iOSNote/iOS_StaticLibrary.md)<br>[iOS经典Crash分析与总结- QQ`MelonTeam`](https://github.com/DevDragonLi/iOSDevDemo)<br>[iOS核心动画高级技巧阅读笔记(**性能调优**,**高效绘制**,**图像IO**,**图层性能**)](./iOSNote/iOSCoreAnimationNote.md)<br>[单元测试概述](./iOSNote/UnitTesting.md)|
+|iOSDevNote|[iOS项目完全解耦的**Debug菜单中心组件**](https://github.com/DevDragonLi/iOSDebugKit)<br>[**Dark Mode适配组件及Demo**](https://github.com/DevDragonLi/LFLDarkModeKit)<br>[**ProtocolServiceKit组件中间件**](https://github.com/DevDragonLi/ProtocolServiceKit)<br>[**iOS开发架构分享文稿**](./iOSNote/iOS_architecture.pdf)<br>[**掘金客户端体积瘦身**](./iOSNote/iOSAppThin.md)<br>[**iOSDevCodeRepo**](https://github.com/DevDragonLi/iOSDevDemo)<br>[Core Animation框架结构及性能调优11张大图详解](https://github.com/DevDragonLi/Core-AnimationPerformanceOptimization)<br>[iOS_StaticLibrary](./iOSNote/iOS_StaticLibrary.md)<br>[iOS经典Crash分析与总结- QQ`MelonTeam`](https://github.com/DevDragonLi/iOSDevDemo)<br>[iOS核心动画高级技巧阅读笔记(**性能调优**,**高效绘制**,**图像IO**,**图层性能**)](./iOSNote/iOSCoreAnimationNote.md)<br>[单元测试概述](./iOSNote/UnitTesting.md)|
 |CocoaPods 相关 |[**cocoapods-plugins**](./iOSNote/CocoaPods/cocoapods-plugins.md)<br>[提交开源框架之流程](./iOSNote/CocoaPods/cocoapods-podspec.md)<br>[管理库的使用技巧](./iOSNote/CocoaPods/cocoapods-podspec.md)<br>[私有源组件化及podfile总结](./iOSNote/CocoaPods/Podfile.md)<br>[私有库参考Demo](https://github.com/DevDragonLi/iOSDevDemo/tree/master/1-DevDemo/PodPrivate_demo)<br>[podspec总结](./iOSNote/CocoaPods/podspec.md)|
 |开源框架|**[WiFi显示图片高清图;蜂窝显示图片缩略图解析](./iOSNote/Analyze/SDWebImage/网络网络状态不同加载图片.md)**<br>**[MJRefresh源码解析](./iOSNote/Analyze/MJRefresh/MJRefresh.md)**|
 
