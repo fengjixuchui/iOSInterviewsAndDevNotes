@@ -1,27 +1,41 @@
 
 # 一份"有点难"的iOS面试题：MrPeak 
 
-> MrPeak : Facebook  Software engineer 
+> MrPeak ： Facebook  Software engineer 
 
->[题目出处](https://zhuanlan.zhihu.com/p/22834934)
+> 题目出处： zhuanlan.zhihu.com/p/22834934
+
+-   [谈下iOS开发中知道的哪些锁?](#谈下ios开发中知道的哪些锁)
+-   [iOS下如何实现指定线程数目的线程池?](#ios下如何实现指定线程数目的线程池)
+-   [如何用HTTP实现长连接？](#如何用http实现长连接)
+-   [HTTP的post和get啥区别](#http的post和get啥区别)
+-   [使用atomic一定是线程安全的吗？](#使用atomic一定是线程安全的吗)
+-   [数据库建表的时候索引有什么用？](#数据库建表的时候索引有什么用)
+-   [介绍下iOS设备获取唯一设备号的历史变迁](#介绍下ios设备获取唯一设备号的历史变迁)
+-   [如何使用runtime
+    hook一个class的某个方法，又如何hook某个instance的方法？](#如何使用runtime-hook一个class的某个方法又如何hook某个instance的方法)
+-   [聊下HTTP的POST的body体使用form-urlencoded和multipart/form-data的区别。](#聊下http的post的body体使用form-urlencoded和multipartform-data的区别)
+-   [通过\[UIImage
+    imageNamed:\]生成的对象什么时候被释放？](#通过uiimage-imagenamed生成的对象什么时候被释放)
+-   [applicationWillEnterForeground和applicationDidBecomeActive都会在哪些场景下被调用？举例越多越好。](#applicationwillenterforeground和applicationdidbecomeactive都会在哪些场景下被调用举例越多越好)
+-   [如何终止正在运行的工作线程？](#如何终止正在运行的工作线程)
+-   [iOS下所有的本地持久化方案?](#ios下所有的本地持久化方案)
 
 
 ## 谈下iOS开发中知道的哪些锁? 
 
+> 一般开发中你最常用哪个? 
+
 > 哪个性能最差?SD和AFN使用的哪个?
-
->  一般开发中你最常用哪个? 
-
-> 哪个锁apple存在问题又是什么问题?
  
 <details>
 <summary> 参考内容 </summary>
 
 - 我们在使用多线程的时候多个线程可能会访问同一块资源，这样就很容易引发数据错乱和数据安全等问题，这时候就需要我们保证每次只有一个线程访问这一块资源，锁 应运而生
 
-- `@synchronized` 性能最差,SD和AFN等框架使用这个.
+- `@synchronized` 性能最差,SD和AFN等框架内部有使用这个.
 
-- NSRecursiveLock 和NSLock ：建议使用前者，避免循环调用出现**死锁**
+- NSRecursiveLock 和 NSLock ：建议使用前者，避免循环调用出现**死锁**
 
 - OSSpinLock 自旋锁 ,存在的问题是, 优先级反转问题,破坏了spinlock
 
@@ -82,7 +96,7 @@ dispatch_semaphore_signal(signal)：可以理解为 unlock,会使得 signal 值 
 
 </details>
 
-## http的post和get啥区别
+## HTTP的post和get啥区别
 <details>
 <summary> 参考内容 </summary>
 
@@ -202,7 +216,7 @@ dispatch_semaphore_signal(signal)：可以理解为 unlock,会使得 signal 值 
 </details>
 
 ## iOS下所有的本地持久化方案?
-> [相似问题：iOS中常用的数据存储方式有哪些](./06iOS基础问题系列2017年.md)
+> [本系列面试题相似问题：iOS中常用的数据存储方式有哪些](./06iOS基础问题系列2017年.md)
 
 <details>
 <summary> 参考内容 </summary>
