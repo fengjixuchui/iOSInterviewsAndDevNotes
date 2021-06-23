@@ -1,4 +1,23 @@
 
+## 2021 install cocoapods 
+
+
+> 备注：rbenv安装较慢【等】
+
+```
+
+brew install rbenv
+
+CFLAGS="-Wno-error=implicit-function-declaration" rvm install 2.6.3
+
+```
+
+> sudo gem install -n /usr/local/bin cocoapods -v 1.10.1
+
+-------------
+-------------
+----------------
+
 # ruby.taobao.org停止更新使用cocoapods更新rubychina源 
 
 ## 1. 如何使用？
